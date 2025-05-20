@@ -204,7 +204,7 @@ void buzz(uint8_t BUZZER_PIN, uint16_t freq, uint16_t duration) {
     }
 }
 
-// 1. Substitua a função buzz() por esta versão não-bloqueante
+
 void vBuzzer() {
     gpio_init(BUZZER_A);
     gpio_set_dir(BUZZER_A, GPIO_OUT);
